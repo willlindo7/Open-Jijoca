@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#container {
+    overflow-x: auto;
+}
+
+.Cabeçalho {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(11, 11, 58) );
+    padding: 30px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    min-width: 250px;
+}
+
+.Cabeçalho > h1 {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Cabeçalho > p {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: -20px;
+}
+
+.num {
+    background-color: rgb(200, 215, 228);
+}
+
+.jogo {
+    width: 20px;
+}
+
+.chave {
+    width: 30px;
+}
+
+.quadra {
+    width: 22px;
+}
+
+caption {
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(to bottom,  rgb(0, 0, 0), rgb(5, 5, 77));
+    color: white;
+}
+
+table {
+    padding: 30px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(224, 222, 222);
+}
+.primeirosOF {
+    background-color: yellow;
+}
+
+.segundosOF {
+    background-color: red;
+}
+
+.primeirosQF {
+    background-color: greenyellow;
+}
+
+.segundosQF {
+    background-color: blue;
+}
+
+.primeirosSF {
+    background-color: green;
+}
+
+.segundosSF {
+        background-color: green;
+}
+
+.primeiros3 {
+    background-color: yellow;
+}
+
+.segundos3 {
+    background-color: yellow;
+}
+
+.primeirosF {
+    background-color: blue;
+}
+
+.segundosF {
+    background-color: blue;
+}
