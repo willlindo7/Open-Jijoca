@@ -84,13 +84,6 @@ td {
 tr:nth-child(2n) {
     background-color: rgb(224, 222, 222);
 }
-.primeirosOF {
-    background-color: yellow;
-}
-
-.segundosOF {
-    background-color: red;
-}
 
 .primeirosQF {
     background-color: greenyellow;
