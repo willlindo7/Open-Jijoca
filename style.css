@@ -54,6 +54,10 @@ div#container {
     width: 40px;
 }
 
+.XG {
+    background-color: rgb(210, 232, 239);
+}
+
 caption {
     font-weight: bold;
     font-family: "Bebas Neue", sans-serif;
@@ -92,7 +96,7 @@ tr:nth-child(2n) {
 }
 
 .segundosQF {
-    background-color: blue;
+    background-color: rgba(37, 37, 238, 0.675);
 }
 
 .primeirosSF {
