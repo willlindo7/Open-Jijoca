@@ -133,6 +133,8 @@ footer {
 footer a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 0.9em;
 }
 
 a:hover {
